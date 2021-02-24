@@ -12,6 +12,7 @@ export const Card: React.FC<CardProps> = (props) => {
     <Box width="100%">
       <Box
         bgGradient={props.color}
+        bg={props.color}
         p="1rem"
         color="white"
         textAlign="center"

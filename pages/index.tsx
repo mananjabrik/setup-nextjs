@@ -30,6 +30,13 @@ export default function Home() {
               color={blue}
             />
           </WrapItem>
+          <WrapItem width="50%" p="2px">
+            <Card
+              tittle="Volley"
+              img="https://img.icons8.com/cotton/64/000000/volleyball.png"
+              color="gray.500"
+            />
+          </WrapItem>
         </Wrap>
       </Container>
     </Box>
